@@ -7,6 +7,8 @@ To use the scripts, simply create a file called "levels_credentials.py" in the f
 
 	credentials = [
                {"level": "[REDACTED]", "password":"[REDACTED]", "url":"[REDACTED]"},
+	       {"level": "[REDACTED]", "password":"[REDACTED]", "url":"[REDACTED]"},
+	       ...
 	]
 
 Then run...
